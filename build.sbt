@@ -1,7 +1,7 @@
 ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / scalaVersion := "3.6.4"
 
-val kubernetesClientVersion = "7.3.0"
+val kubernetesClientVersion = "7.9.0"
 
 lazy val root = (project in file("."))
   .settings(
